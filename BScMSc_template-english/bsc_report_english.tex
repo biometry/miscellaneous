@@ -40,7 +40,7 @@
                        % of a page. The package depends on having a
                        % DVI driver that can produce these effects.
                        
-\usepackage[hidelinks]{hyperref} %This package will make links in PDF
+\usepackage[hidelinks, breaklinks]{hyperref} %This package will make links in PDF
                        % documents to your figures, references, etc.
                        % hidelinks removes the boxes around the hyperreferenced items
                        
@@ -50,7 +50,7 @@
 					   % ideally, the whole world would use utf8
 					   % important for öüäß (Umlaute)
 
-\usepackage{libertine} % Use a nice serif font! Alternatives:
+\usepackage[ttscale=0.875]{libertine} % Use a nice serif font! Alternatives:
 					   % times, palatino, ... 
 					   
 \usepackage{makeidx} % use this package to make an index
@@ -67,6 +67,12 @@
                        % abbrnat. The bibliography styles produced by
                        % custom-bib are designed from the start to be
                        % compatible with natbib.
+  %bibtex related settings-------------------------------------------
+  \def\bibfont{\small} % change font size to small
+  %\renewcommand{\bibfont}{\footnotesize}
+  \renewcommand{\bibsep}{5pt}
+  \bibpunct{(}{)}{;}{a}{}{,} % change square brackets to round ones, separators between authors to ; and so forth
+                      
                        
 \usepackage{rotating}  % The rotating package implements three
                        % environments within which in-line figures,
@@ -188,8 +194,11 @@ Cover photograph: Example of a fossil in a reef. Source: somewhere from the inte
 
 % Include an abstract of your report
 \abstract{
-
 Place your abstract text here
+
+Attention! In \LaTeX you use an empty line to create a new paragraph. This leads to the first line of the new paragraph being indented (apart from the first of a section). This is intentional and nice! If you disagree, you can redefine the settings (\texttt{parindent} and \texttt{parsep}\footnote{As demonstrated here:  \url{https://texblog.org/2012/11/07/correctly-typesetting-paragraphs-in-latex/}}), but PLEASE NEVER use the double-backslash to end a paragraph! That is bad style and can get you into all sorts of incompatibility problems. 
+
+So: no \textbackslash\textbackslash~ to end paragraphs!
 
 } 
 

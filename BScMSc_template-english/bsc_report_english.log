@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.12.20)  16 NOV 2017 08:20
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.12.20)  12 DEC 2018 11:42
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -225,6 +225,7 @@ File: pd1enc.def 2016/05/05 v6.83n Hyperref: PDFDocEncoding definition (HO)
 File: hyperref.cfg 2002/06/06 v1.2 hyperref configuration of TeXLive
 )
 Package hyperref Info: Option `final' set `true' on input line 4322.
+Package hyperref Info: Option `breaklinks' set `true' on input line 4322.
 Package hyperref Info: Hyper figures OFF on input line 4446.
 Package hyperref Info: Link nesting OFF on input line 4451.
 Package hyperref Info: Hyper index ON on input line 4454.
@@ -818,30 +819,30 @@ Package: wrapfig 2003/01/31  v 3.6
 (./bsc_report_english.aux)
 \openout1 = `bsc_report_english.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 110.
-LaTeX Font Info:    ... okay on input line 110.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 110.
-LaTeX Font Info:    ... okay on input line 110.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 110.
-LaTeX Font Info:    ... okay on input line 110.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 110.
-LaTeX Font Info:    ... okay on input line 110.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 110.
-LaTeX Font Info:    ... okay on input line 110.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 110.
-LaTeX Font Info:    ... okay on input line 110.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 110.
-LaTeX Font Info:    ... okay on input line 110.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 110.
-LaTeX Font Info:    Try loading font information for TS1+cmr on input line 110.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 116.
+LaTeX Font Info:    ... okay on input line 116.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 116.
+LaTeX Font Info:    ... okay on input line 116.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 116.
+LaTeX Font Info:    ... okay on input line 116.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 116.
+LaTeX Font Info:    ... okay on input line 116.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 116.
+LaTeX Font Info:    ... okay on input line 116.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 116.
+LaTeX Font Info:    ... okay on input line 116.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 116.
+LaTeX Font Info:    ... okay on input line 116.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 116.
+LaTeX Font Info:    Try loading font information for TS1+cmr on input line 116.
 
 
 (/usr/local/texlive/2016/texmf-dist/tex/latex/base/ts1cmr.fd
 File: ts1cmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
-LaTeX Font Info:    ... okay on input line 110.
+LaTeX Font Info:    ... okay on input line 116.
 LaTeX Font Info:    Try loading font information for OT1+LinuxLibertineT-TLF on
- input line 110.
+ input line 116.
 
 (/usr/local/texlive/2016/texmf-dist/tex/latex/libertine/OT1LinuxLibertineT-TLF.
 fd
@@ -849,7 +850,7 @@ File: OT1LinuxLibertineT-TLF.fd 2012/11/26 (autoinst) Font definitions for OT1/
 LinuxLibertineT-TLF.
 )
 LaTeX Font Info:    Font shape `OT1/LinuxLibertineT-TLF/m/n' will be
-(Font)              scaled to size 10.95pt on input line 110.
+(Font)              scaled to size 10.95pt on input line 116.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -914,7 +915,7 @@ File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
 e
 ))
 \AtBeginShipoutBox=\box31
-Package hyperref Info: Link coloring OFF on input line 110.
+Package hyperref Info: Link coloring OFF on input line 116.
 
 (/usr/local/texlive/2016/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2012/10/27 v2.43 Cross-referencing by name of section
@@ -924,9 +925,9 @@ Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
 )
 \c@section@level=\count128
 )
-LaTeX Info: Redefining \ref on input line 110.
-LaTeX Info: Redefining \pageref on input line 110.
-LaTeX Info: Redefining \nameref on input line 110.
+LaTeX Info: Redefining \ref on input line 116.
+LaTeX Info: Redefining \pageref on input line 116.
+LaTeX Info: Redefining \nameref on input line 116.
 
 (./bsc_report_english.out) (./bsc_report_english.out)
 \@outlinefile=\write4
@@ -940,23 +941,23 @@ File: images/ufcd-logo-e1-a4-color.png Graphic file (type png)
 
 <use images/ufcd-logo-e1-a4-color.png>
 Package pdftex.def Info: images/ufcd-logo-e1-a4-color.png used on input line 14
-1.
+7.
 (pdftex.def)             Requested size: 113.81102pt x 134.37971pt.
 LaTeX Font Info:    Font shape `OT1/LinuxLibertineT-TLF/m/n' will be
-(Font)              scaled to size 20.74pt on input line 146.
+(Font)              scaled to size 20.74pt on input line 152.
 LaTeX Font Info:    Font shape `OT1/LinuxLibertineT-TLF/b/n' will be
-(Font)              scaled to size 20.74pt on input line 146.
+(Font)              scaled to size 20.74pt on input line 152.
 LaTeX Font Info:    Font shape `OT1/LinuxLibertineT-TLF/m/n' will be
-(Font)              scaled to size 14.4pt on input line 150.
+(Font)              scaled to size 14.4pt on input line 156.
 
 <images/bsc-fossil.pdf, id=50, 1004.75375pt x 753.81625pt>
 File: images/bsc-fossil.pdf Graphic file (type pdf)
 
 <use images/bsc-fossil.pdf>
-Package pdftex.def Info: images/bsc-fossil.pdf used on input line 156.
+Package pdftex.def Info: images/bsc-fossil.pdf used on input line 162.
 (pdftex.def)             Requested size: 284.52756pt x 213.4596pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 161--162
+Underfull \hbox (badness 10000) in paragraph at lines 167--168
 
  []
 
@@ -965,9 +966,9 @@ Underfull \hbox (badness 10000) in paragraph at lines 161--162
 {/usr/local/texlive/2016/texmf-var/fonts/map/pdftex/updmap/pdftex.map} <./image
 s/ufcd-logo-e1-a4-color.png> <./images/bsc-fossil.pdf>] [2]
 LaTeX Font Info:    Font shape `OT1/LinuxLibertineT-TLF/m/n' will be
-(Font)              scaled to size 24.88pt on input line 177.
+(Font)              scaled to size 24.88pt on input line 183.
 LaTeX Font Info:    Font shape `OT1/LinuxLibertineT-TLF/b/n' will be
-(Font)              scaled to size 24.88pt on input line 177.
+(Font)              scaled to size 24.88pt on input line 183.
 
 (./bsc_report_english.toc
 LaTeX Font Info:    Font shape `OT1/LinuxLibertineT-TLF/b/n' will be
@@ -978,8 +979,42 @@ LaTeX Font Info:    Font shape `OT1/LinuxLibertineT-TLF/b/n' will be
 
  [1
 
-] (./chapters/introduction.texpdfTeX warning (ext4): destination with the same 
-identifier (name{page.1}) has been already used, duplicate ignored
+]
+LaTeX Font Info:    Font shape `OT1/LinuxLibertineT-TLF/m/n' will be
+(Font)              scaled to size 8.0pt on input line 199.
+LaTeX Font Info:    Try loading font information for OT1+LinuxLibertineMonoT-TL
+F on input line 199.
+
+(/usr/local/texlive/2016/texmf-dist/tex/latex/libertine/OT1LinuxLibertineMonoT-
+TLF.fd
+File: OT1LinuxLibertineMonoT-TLF.fd 2012/12/06 (autoinst) Font definitions for 
+OT1/LinuxLibertineMonoT-TLF.
+)
+LaTeX Font Info:    Font shape `OT1/LinuxLibertineMonoT-TLF/m/n' will be
+(Font)              scaled to size 9.58124pt on input line 199.
+LaTeX Font Info:    Font shape `OT1/LinuxLibertineT-TLF/m/n' will be
+(Font)              scaled to size 9.0pt on input line 199.
+LaTeX Font Info:    Font shape `OT1/LinuxLibertineT-TLF/m/n' will be
+(Font)              scaled to size 6.0pt on input line 199.
+LaTeX Font Info:    Font shape `OT1/LinuxLibertineMonoT-TLF/m/n' will be
+(Font)              scaled to size 7.875pt on input line 199.
+
+Overfull \hbox (42.92407pt too wide) in paragraph at lines 199--199
+[][][]\OT1/LinuxLibertineT-TLF/m/n/9 As demon-strated here: []$\OT1/LinuxLibert
+ineMonoT-TLF/m/n/9 https : / / texblog . org / 2012 / 11 / 07 / correctly-[]typ
+esetting-[]paragraphs-[]in-[]latex/$[]| 
+ []
+
+LaTeX Font Info:    Try loading font information for OMS+LinuxLibertineT-TLF on
+ input line 201.
+LaTeX Font Info:    No file OMSLinuxLibertineT-TLF.fd. on input line 201.
+
+LaTeX Font Warning: Font shape `OMS/LinuxLibertineT-TLF/m/n' undefined
+(Font)              using `OMS/cmsy/m/n' instead
+(Font)              for symbol `textbackslash' on input line 201.
+
+(./chapters/introduction.texpdfTeX warning (ext4): destination with the same id
+entifier (name{page.1}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
 l.2 \chapter
@@ -1021,10 +1056,12 @@ Chapter 4.
 ]) (./bsc_report_english.bbl [6
 
 ]
-
-Package natbib Warning: Empty `thebibliography' environment on input line 8.
-
-) (./chapters/appendix1.tex [7
+LaTeX Font Info:    Font shape `OT1/LinuxLibertineT-TLF/m/n' will be
+(Font)              scaled to size 10.0pt on input line 1.
+LaTeX Font Info:    Font shape `OT1/LinuxLibertineT-TLF/m/it' will be
+(Font)              scaled to size 10.0pt on input line 12.
+)
+(./chapters/appendix1.tex [7
 
 ]
 Appendix A.
@@ -1035,41 +1072,47 @@ Appendix B.
 ) (./bsc_report_english.ind) (./chapters/selbststaendigkeit.tex [9
 
 ])
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 230.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 239.
  [10
 
 ]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 230.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 239.
 
 (./bsc_report_english.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 230.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 230.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 239.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 239.
 Package rerunfilecheck Info: File `bsc_report_english.out' has not changed.
 (rerunfilecheck)             Checksum: F48E07356410630B2364A307A56AB1F5;570.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 230.
+
+
+LaTeX Font Warning: Some font shapes were not available, defaults substituted.
+
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 239.
  ) 
 Here is how much of TeX's memory you used:
- 8886 strings out of 493014
- 133364 string characters out of 6133350
- 214777 words of memory out of 5000000
- 12230 multiletter control sequences out of 15000+600000
- 21950 words of font info for 44 fonts, out of 8000000 for 9000
+ 8945 strings out of 493014
+ 135019 string characters out of 6133350
+ 214830 words of memory out of 5000000
+ 12271 multiletter control sequences out of 15000+600000
+ 32273 words of font info for 62 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 30i,6n,35p,438b,373s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 30i,8n,35p,706b,373s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2016/texmf-dist/fonts/enc/dvips/libertine/lbtn_naooyc.enc
 }{/usr/local/texlive/2016/texmf-dist/fonts/enc/dvips/libertine/lbtn_xogrpz.enc}
-{/usr/local/texlive/2016/texmf-dist/fonts/enc/dvips/libertine/lbtn_c7kyj5.enc}{
-/usr/local/texlive/2016/texmf-dist/fonts/enc/dvips/libertine/lbtn_lu7m2n.enc}</
-usr/local/texlive/2016/texmf-dist/fonts/type1/public/libertine/LinLibertineT.pf
+{/usr/local/texlive/2016/texmf-dist/fonts/enc/dvips/libertine/lbtn_4jqvtd.enc}{
+/usr/local/texlive/2016/texmf-dist/fonts/enc/dvips/libertine/lbtn_c7kyj5.enc}{/
+usr/local/texlive/2016/texmf-dist/fonts/enc/dvips/libertine/lbtn_lu7m2n.enc}</u
+sr/local/texlive/2016/texmf-dist/fonts/type1/public/libertine/LinLibertineMT.pf
 b></usr/local/texlive/2016/texmf-dist/fonts/type1/public/libertine/LinLibertine
-TB.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/libertine/LinLibe
-rtineTI.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/
-cmr10.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cm
-sy10.pfb>
-Output written on bsc_report_english.pdf (13 pages, 2338058 bytes).
+T.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/libertine/LinLiber
+tineTB.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/libertine/Lin
+LibertineTI.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts
+/cm/cmr10.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/c
+m/cmsy10.pfb>
+Output written on bsc_report_english.pdf (13 pages, 2368297 bytes).
 PDF statistics:
- 167 PDF objects out of 1000 (max. 8388607)
- 140 compressed objects within 2 object streams
- 27 named destinations out of 1000 (max. 500000)
+ 178 PDF objects out of 1000 (max. 8388607)
+ 150 compressed objects within 2 object streams
+ 29 named destinations out of 1000 (max. 500000)
  99 words of extra memory for PDF output out of 10000 (max. 10000000)
 

@@ -1,48 +1,46 @@
-This is BibTeX, Version 0.99d (TeX Live 2014)
+This is BibTeX, Version 0.99d (TeX Live 2016)
 Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
 The top-level auxiliary file: bsc_report_english.aux
 The style file: plainnat.bst
-I found no \citation commands---while reading file bsc_report_english.aux
 Database file #1: library/studlib.bib
-You've used 0 entries,
+You've used 1 entry,
             2773 wiz_defined-function locations,
-            750 strings with 6876 characters,
-and the built_in function-call counts, 33 in all, are:
-= -- 0
-> -- 0
-< -- 0
-+ -- 0
-- -- 0
-* -- 2
-:= -- 10
-add.period$ -- 0
-call.type$ -- 0
-change.case$ -- 0
-chr.to.int$ -- 0
-cite$ -- 0
-duplicate$ -- 0
-empty$ -- 1
-format.name$ -- 0
-if$ -- 1
+            759 strings with 7131 characters,
+and the built_in function-call counts, 496 in all, are:
+= -- 46
+> -- 21
+< -- 1
++ -- 7
+- -- 6
+* -- 42
+:= -- 80
+add.period$ -- 4
+call.type$ -- 1
+change.case$ -- 5
+chr.to.int$ -- 1
+cite$ -- 2
+duplicate$ -- 20
+empty$ -- 40
+format.name$ -- 9
+if$ -- 98
 int.to.chr$ -- 1
 int.to.str$ -- 1
-missing$ -- 0
-newline$ -- 8
-num.names$ -- 0
-pop$ -- 0
+missing$ -- 1
+newline$ -- 14
+num.names$ -- 4
+pop$ -- 7
 preamble$ -- 1
-purify$ -- 0
+purify$ -- 4
 quote$ -- 0
-skip$ -- 1
+skip$ -- 16
 stack$ -- 0
-substring$ -- 0
-swap$ -- 0
+substring$ -- 24
+swap$ -- 2
 text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 0
+type$ -- 11
 warning$ -- 0
-while$ -- 0
+while$ -- 5
 width$ -- 0
-write$ -- 7
-(There was 1 error message)
+write$ -- 22
