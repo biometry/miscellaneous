@@ -192,13 +192,24 @@ Cover photograph: Example of a fossil in a reef. Source: somewhere from the inte
 % Use arabic numbering throughout the text
 \pagenumbering{arabic}
 
+
+\frenchspacing % this reduces the width of a space after a "." French spacing is also the default in most of the world, and even in the US print media.
+
+
 % Include an abstract of your report
 \abstract{
 Place your abstract text here
 
-Attention! In \LaTeX you use an empty line to create a new paragraph. This leads to the first line of the new paragraph being indented (apart from the first of a section). This is intentional and nice! If you disagree, you can redefine the settings (\texttt{parindent} and \texttt{parsep}\footnote{As demonstrated here:  \url{https://texblog.org/2012/11/07/correctly-typesetting-paragraphs-in-latex/}}), but PLEASE NEVER use the double-backslash to end a paragraph! That is bad style and can get you into all sorts of incompatibility problems. 
+Attention! In \LaTeX{ }you \textbf{use an empty line to create a new paragraph}. This leads to the first line of the new paragraph being indented (apart from the first of a section). This is intentional and nice! If you disagree, you can redefine the settings (\texttt{parindent} and \texttt{parsep}\footnote{As demonstrated here:  \url{https://texblog.org/2012/11/07/correctly-typesetting-paragraphs-in-latex/}}), but PLEASE NEVER use the double-backslash to end a paragraph! That is bad style and can get you into all sorts of incompatibility problems. 
 
 So: no \textbackslash\textbackslash~ to end paragraphs!
+
+
+And while we are at it: \LaTeX{ }has a few notational standards differing from ordinary writing programms. For example, \textbf{quotation marks} are typically \emph{not} correctly displayed! Although tedious, use \`{}\`{} (i.e. backticks) and '{}' (i.e. apostrophes) to achieve ``this'' (i.e. typographically satisfactory quotation marks).\footnote{\url{https://www.maths.tcd.ie/~dwilkins/LaTeXPrimer/QuotDash.html} For German text, use \`{}" and '{}", i.e. with the normal quotation mark: \url{https://tex.stackexchange.com/questions/38965/problem-with-using-quotations-in-german-document?rq=1}.} 
+
+When you cross-reference a figure, you don't want the number to be separated from the word by a new line, but rather keep ``Fig.'' and ``3'' together. To do so, \LaTeX{ }offers a \textbf{non-breakable space}, using the tilde ($\sim$), like so: \texttt{Fig.{\raise.17ex\hbox{$\scriptstyle\mathtt{\sim}$}}\textbackslash  ref\{fig:studysite\}}. (A breakable forced space would simply be two curvy brackets around an empty space, i.e. \{\textvisiblespace \}, as I used every time after the \texttt{\textbackslash LaTeX}-command above.)
+
+If you want to \textbf{display code} (of virtually any programming language, including R, Matlab, C/C++, Java, Python, \LaTeX), you should have a look at the listings package.\footnote{\url{https://en.wikibooks.org/wiki/LaTeX/Source_Code_Listings}, \url{https://texfaq.org/FAQ-codelist}}
 
 } 
 
