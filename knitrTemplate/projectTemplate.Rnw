@@ -9,14 +9,13 @@
   \setcounter{tocdepth}{3}
 \usepackage{hanging}
 \usepackage[utf8]{inputenc}
-\usepackage{listings}
-  \lstset{breaklines=true, showstringspaces=false}
+%\usepackage{listings}
+%  \lstset{breaklines=true, showstringspaces=false}
 \usepackage{natbib}
   \PassOptionsToPackage{hyphens}{url}
 \usepackage[unicode=true,pdfusetitle,
  bookmarks=true,bookmarksnumbered=true,bookmarksopen=true,bookmarksopenlevel=2,
- breaklinks=true,pdfborder={0 0 1},backref=true,colorlinks=false, hidelinks]
- {hyperref}
+ breaklinks=true,pdfborder={0 0 1},colorlinks=false, hidelinks]{hyperref}
 \usepackage{mathptmx} % for Times-compatible math font; needs to go before other font packages!
 \usepackage[ttscale=.85]{libertine}
 	%	\renewcommand\familydefault{\sfdefault} 
@@ -36,9 +35,15 @@
 \frenchspacing % avoid long spaces after a "."
 
 \begin{document}
-<<setup, include=FALSE, cache=FALSE>>=
+
+% If you HERE, after the "begin document" see something like "sweave-concordance", then you used sweave rather than knitr for processing this document. 
+% In RStudio, under Options/Sweave, set to "knitr"!
+
+<<setup, include=FALSE, cache=FALSE, echo=F>>=
 library(knitr)
-opts_chunk$set(fig.path='figure/', fig.align='center', fig.width=6, fig.height=6, fig.show='hold', cache=TRUE, tidy=F, tidy.opts=list(width.cutoff=75), size="small")
+opts_chunk$set(fig.path='figure/', fig.align='center', fig.width=6, fig.height=6, fig.show='hold', cache=F, tidy=F, tidy.opts=list(width.cutoff=65), size="small")
+#opts_knit$set(out.format = "latex")
+#knit_theme$set("default") # not necessary; to illustrate how to change syntax highlighting scheme
 @
 
 \title{
@@ -69,7 +74,7 @@ The R-code is evaluated in the console, while the project file is processed \emp
 \section{Task 1}
 When using R-code in knitr-mode, one can provide a lot of options. For example, the options `fig.height' and `fig.width' refer to the size of a figure in R, while `out.height' and `out.width' are for the eventual size in the \LaTeX\/ document.
 
-To use R within the document, you have to start and end with a special formatting. Start the chunk with \texttt{<<>>=} and end with \texttt{@}. The first entry is the name of the code chunk, if you want to name it. Like this:
+To use R within the document, you have to start and end with a special formatting. Start the chunk with \texttt{$<< >>=$} and end with \texttt{@}. The first entry is the name of the code chunk, if you want to name it. Like this:
 <<example1, message=F, fig.height=5, fig.width=5, out.height="7cm", out.width="7cm">>=
 data(sleep)
 attach(sleep)
