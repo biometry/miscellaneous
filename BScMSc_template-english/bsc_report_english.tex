@@ -59,6 +59,11 @@
                        % \makeindex command 
 \makeindex             % Create the index file        
 
+\usepackage{mdframed}  % for making boxes with coloured lines and background
+	\newmdenv[  % sets up a new environment, e.g. the box you want to use
+		backgroundcolor=black!5,
+		]{boxmd} 
+
 \usepackage{natbib}    % Provides a style with author-year and
                        % numbered references, as well as much detailed
                        % of support for other bibliography
@@ -92,6 +97,7 @@
 
 \usepackage{wrapfig}   % allows text to flow around a figure               
 
+\usepackage{xcolor}    % allows using colours in LaTeX
 
 % The \raggedbottom declaration makes all pages the height of the text
 % on that page. No extra vertical space is added.
@@ -107,6 +113,8 @@
 \setcounter{topnumber}{4}%
 \setcounter{totalnumber}{4}%
 
+
+\DeclareRobustCommand{\BibTeX}{{\normalfont\scshape Bib\kern-0.08em \TeX}}
 
 %----------------------------------------------------------------------------
 				% here the content starts !		

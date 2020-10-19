@@ -7,7 +7,33 @@
 
 Start your introduction here...
 
-Possibly cite some work of others, too \citep{Adiku.ea:1995:USO}. To do so, you have to fill a file (the bibliography, recognisable by the .bib ending) with appropriately formatted references. It would be daft to not use BibDesk or JabRef or other software to manage your references and produce this file for your. Then, you cite the references, and the \textbf{natbib} package allows you flexibility (with/out parentheses, only the year, etc). The actual style of the bibliography in your thesis is determined by the command \texttt{bibliographystyle}, and there are only few defaults. The main differences are between author-year styles (e.g. apalike) and numbered (e.g. ksfh\_nat). Thousands of styles float the internet, recognisable as .bst-files, and typically every journal has a different one, every book series re-invents the styles, and you can spend years optimising what is, essentially, not so super important.
+Possibly cite some work of others, too \citep{Adiku.ea:1995:USO}. To do so, you have to fill a file (the bibliography, recognisable by the \texttt{.bib} ending) with appropriately formatted references. It would be daft to not use BibDesk or JabRef or other software to manage your references and produce this file for your. Then, you cite the references, and the \textbf{natbib} package allows you flexibility (with/out parentheses, only the year, etc). The actual style of the bibliography in your thesis is determined by the command \texttt{bibliographystyle}, and there are only few defaults. The main differences are between author-year styles (e.g. apalike) and numbered (e.g. ksfh\_nat). Thousands of styles float the internet, recognisable as \texttt{.bst}-files, and typically every journal has a different one, every book series re-invents the styles, and you can spend years optimising what is, essentially, not so super important.
+
+\begin{boxmd}
+	\textbf{Bibliography settings}\\
+	Just like in any other writing software, references are collected and managed in a dedicated programme (a reference manager, e.g. Zotero, BibDesk, JabRef, ...). This results, for \LaTeX, in a \BibTeX\/ file, recognisable by the \texttt{.bib}-extension, with a readable but very structured content. When you import a publication into the reference manager, the title may be unformatted; italics (e.g. species names) and capitalisation (countries, Names) may well be lost, and you need to put them back in. 
+	Eventually, your \BibTeX-file should have entries that look like this:\\
+	%
+	\begin{footnotesize}
+	\begin{ttfamily}	
+	@article\{Dormann1997,\\
+	Author = \{Dormann, Carsten F\}, \\
+	Journal = \{Zeitschrift f\{\textbackslash"u\}r \{\textbackslash"O\}kologie und Naturschutz},\\
+	Pages = \{26-\.-36\},\\
+	Title = \{Sandrohr (\textbackslash emph\{\{C\}alamagrostis epigejos\} (L.) \{R\}oth) in \{T\}rockenrasen des \{B\}iosph\{\textbackslash "a\}renreservates \{S\}chorfheide-\{C\}horin: \{B\}estandsstruktur, \{\textbackslash"o\}kologische \{A\}uswirkungen und \{P\}flegemassnahmen\},\\
+	Volume = \{6\},\\
+	Year = \{1997\}\\
+	\}
+	\end{ttfamily}
+	\end{footnotesize}\\
+	You will note that all capital letters in the title need to be surrounded by braces ``\{\}'' to prevent conversion to lower case. Italics, such as the species name here, need to be explicitly emphasised. Diacritic symbols may require special representation, although not if you have set your input encoding correctly (see preamble of this document).
+	
+	Of course you can use the more flexible Bib\LaTeX instead of \BibTeX, and of course there some small things to know about the entry types in either. But this should get you started with papers. For books, there is \texttt{\makeatletter @\makeatother book} and for chapters there is \texttt{\makeatletter @\makeatother incollection} (do not use \texttt{\makeatletter @\makeatother inbook}, which does not allow you to specify the editors). I try to squeeze everything into these three types of references.
+	
+	Pay attention to correct capitalisation of your references. Typically, and preferably, Book Titles should be in capitals, as should Journal Names, while journal publications should be lower case, as should be the titles of book chapters. Once your \texttt{.bib}-file is set up correctly, this is all taken care of by the bibliography style of your choice.
+\end{boxmd}
+
+
 
 To add florish, you can use so-called ``fleurons'' to separate paragraphs of the introduction (or discussion) that are really different but have no separate section titles. In novels these are typically changes of scenes within a chapter. The most common fleurons are leaves (\adfhangingflatleafright), asterisks (\adforn{5}) or wiggles (\adforn{19}),
 but I like fleurons related to the topic of your work, so for one on elephants you could do this: 
