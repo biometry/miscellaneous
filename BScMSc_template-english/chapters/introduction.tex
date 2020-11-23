@@ -18,7 +18,7 @@ Possibly cite some work of others, too \citep{Adiku.ea:1995:USO}. To do so, you 
 	\begin{ttfamily}	
 	@article\{Dormann1997,\\
 	Author = \{Dormann, Carsten F\}, \\
-	Journal = \{Zeitschrift f\{\textbackslash"u\}r \{\textbackslash"O\}kologie und Naturschutz},\\
+	Journal = \{Zeitschrift f\{\textbackslash"u\}r \{\textbackslash"O\}kologie und Naturschutz\},\\
 	Pages = \{26-\.-36\},\\
 	Title = \{Sandrohr (\textbackslash emph\{\{C\}alamagrostis epigejos\} (L.) \{R\}oth) in \{T\}rockenrasen des \{B\}iosph\{\textbackslash "a\}renreservates \{S\}chorfheide-\{C\}horin: \{B\}estandsstruktur, \{\textbackslash"o\}kologische \{A\}uswirkungen und \{P\}flegemassnahmen\},\\
 	Volume = \{6\},\\
@@ -31,6 +31,8 @@ Possibly cite some work of others, too \citep{Adiku.ea:1995:USO}. To do so, you 
 	Of course you can use the more flexible Bib\LaTeX instead of \BibTeX, and of course there some small things to know about the entry types in either. But this should get you started with papers. For books, there is \texttt{\makeatletter @\makeatother book} and for chapters there is \texttt{\makeatletter @\makeatother incollection} (do not use \texttt{\makeatletter @\makeatother inbook}, which does not allow you to specify the editors). I try to squeeze everything into these three types of references.
 	
 	Pay attention to correct capitalisation of your references. Typically, and preferably, Book Titles should be in capitals, as should Journal Names, while journal publications should be lower case, as should be the titles of book chapters. Once your \texttt{.bib}-file is set up correctly, this is all taken care of by the bibliography style of your choice.
+	
+	Finally, do \textbf{not} print both DOI and URL in the bibliography, they are typically near-identical. Check the internet for how to suppress URL in this case (although I think the style used here does that automatically, at the expense of also suppressing the DOI).
 \end{boxmd}
 
 

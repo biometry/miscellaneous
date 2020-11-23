@@ -90,14 +90,19 @@
                        % objects, which are typeset alone on separate
                        % pages.
                        
-                       
 \usepackage{tocbibind}  % offers bibliography options for inclusion
 						% in table of content; if you want to have the
 						% bibliography numbered, use option [numbib]
 
 \usepackage{wrapfig}   % allows text to flow around a figure               
 
-\usepackage{xcolor}    % allows using colours in LaTeX
+\usepackage[dvipsnames]{xcolor}    % allows using colours in LaTeX
+
+%\usepackage{titlesec}
+%   \titleformat{\chapter}{\LARGE\bfseries\color{OliveGreen}}{\thechapter}{0pt}{}
+
+
+
 
 % The \raggedbottom declaration makes all pages the height of the text
 % on that page. No extra vertical space is added.
@@ -115,6 +120,8 @@
 
 
 \DeclareRobustCommand{\BibTeX}{{\normalfont\scshape Bib\kern-0.08em \TeX}}
+
+
 
 %----------------------------------------------------------------------------
 				% here the content starts !		
