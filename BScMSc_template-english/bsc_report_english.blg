@@ -1,46 +1,51 @@
-This is BibTeX, Version 0.99d (TeX Live 2016)
-Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
+This is BibTeX, Version 0.99d (TeX Live 2019)
+Capacity: max_strings=100000, hash_size=100000, hash_prime=85009
 The top-level auxiliary file: bsc_report_english.aux
-The style file: plainnat.bst
+A level-1 auxiliary file: chapters/introduction.aux
+A level-1 auxiliary file: chapters/methods.aux
+A level-1 auxiliary file: chapters/results.aux
+A level-1 auxiliary file: chapters/discussion.aux
+A level-1 auxiliary file: chapters/acknowledgements.aux
+The style file: apalike2.bst
 Database file #1: library/studlib.bib
 You've used 1 entry,
-            2773 wiz_defined-function locations,
-            759 strings with 7131 characters,
-and the built_in function-call counts, 496 in all, are:
-= -- 46
-> -- 21
+            2229 wiz_defined-function locations,
+            682 strings with 6349 characters,
+and the built_in function-call counts, 412 in all, are:
+= -- 41
+> -- 13
 < -- 1
-+ -- 7
-- -- 6
-* -- 42
-:= -- 80
-add.period$ -- 4
++ -- 4
+- -- 4
+* -- 36
+:= -- 74
+add.period$ -- 3
 call.type$ -- 1
-change.case$ -- 5
+change.case$ -- 7
 chr.to.int$ -- 1
-cite$ -- 2
-duplicate$ -- 20
-empty$ -- 40
-format.name$ -- 9
-if$ -- 98
+cite$ -- 1
+duplicate$ -- 14
+empty$ -- 30
+format.name$ -- 7
+if$ -- 78
 int.to.chr$ -- 1
-int.to.str$ -- 1
+int.to.str$ -- 0
 missing$ -- 1
-newline$ -- 14
-num.names$ -- 4
-pop$ -- 7
+newline$ -- 8
+num.names$ -- 3
+pop$ -- 4
 preamble$ -- 1
-purify$ -- 4
+purify$ -- 7
 quote$ -- 0
-skip$ -- 16
+skip$ -- 12
 stack$ -- 0
-substring$ -- 24
-swap$ -- 2
+substring$ -- 34
+swap$ -- 1
 text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 11
+type$ -- 6
 warning$ -- 0
-while$ -- 5
+while$ -- 4
 width$ -- 0
-write$ -- 22
+write$ -- 15

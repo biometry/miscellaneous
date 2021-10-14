@@ -34,6 +34,11 @@
 
 \usepackage[top=3cm, bottom=3cm, outer=2.5cm, inner=3.5cm]{geometry}  
 					   % formating the page margins
+					   
+\usepackage[nopostdot, nogroupskip, style=super, nonumberlist]{glossaries} % to make a list of abbreviations or explanations
+	\newacronym{Nit}{N}{Nitrogen} %Use \gls{N} in text
+%	\makeglossaries  % situation unresolved: this will clash, apparently, with definition of date below!!
+	\glstoctrue					   
 
 \usepackage{graphicx}  % The graphicx package implements LaTeX
                        % support for including graphics files,
@@ -132,7 +137,7 @@
 \def\authors{Whathave I. Learned }
 \def\supervisor{Supervisor: Prof. Dr. Irene Knowitall, Department of Irreproducible Affairs}
 \def\cosupervisor{Co-supervisor: Prof. Dr. Jörg Noinput, Department for the Investigation of the Unknown}
-\def\year{Freiburg, May 2014}
+\def\year{Freiburg, May 2021}
 \def\course{Bachelor thesis  (Student ID 450100) \\submitted to \\the Faculty of Environment \& Natural Resources \\ at the Albert-Ludwigs-University Freiburg}
 
 % Start the document
@@ -236,7 +241,7 @@ If you want to \textbf{display code} (of virtually any programming language, inc
 
 } 
 
-
+\printglossary[title={List of Abbreviations}] 
 
 \include{chapters/introduction}
 
