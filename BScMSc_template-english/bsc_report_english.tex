@@ -32,7 +32,9 @@
                        % and below rules, and rules of
                        % varying`thickness'.
 
-\usepackage[top=3cm, bottom=3cm, outer=2.5cm, inner=3.5cm]{geometry}  
+\usepackage{fancyhdr}  % allows controling headers and footers in more detail
+
+\usepackage[top=3cm, bottom=2.5cm, outer=2.5cm, inner=3.5cm]{geometry}  
 					   % formating the page margins
 					   
 \usepackage[nopostdot, nogroupskip, style=super, nonumberlist]{glossaries} % to make a list of abbreviations or explanations
@@ -98,6 +100,8 @@
 \usepackage{tocbibind}  % offers bibliography options for inclusion
 						% in table of content; if you want to have the
 						% bibliography numbered, use option [numbib]
+						
+\usepackage{transparent}
 
 \usepackage{wrapfig}   % allows text to flow around a figure               
 
@@ -169,12 +173,20 @@
 
 %-- french title page (r) ------------------------------------------------
 % Include the university-logo at the bottom of the page
-\begin{figure}[h]
-  \begin{flushright}
-    \vspace{-2cm}
-    \includegraphics[width=4cm]{images/ufcd-logo-e1-a4-color} %ALU_longlogo}
-  \end{flushright}
-\end{figure}
+%\begin{figure}[h]
+%  \begin{flushright}
+%    \vspace{-2cm}
+%    %\includegraphics[width=4cm]{images/ufcd-logo-e1-a4-color} %ALU_longlogo
+%    \includegraphics[width=6cm]{images/UFRsiegel.jpg}
+%  \end{flushright}
+%\end{figure}
+
+\hspace*{8cm}\makebox[0pt][l]{%
+	\raisebox{-5cm}[0pt][0pt]{%
+		{\transparent{.15}\includegraphics[width=14cm]{images/UFRsiegel.jpg}}	
+}}%
+
+\vspace{3cm}
 
 \begin{center}
   {\huge\bfseries\maintitle\par}
@@ -187,13 +199,18 @@
   \vskip 1em%
    \begin{figure}[h]
      \begin{center}
-       \includegraphics[width=10cm]{images/bsc-fossil}
+       \includegraphics[width=7cm]{images/bsc-fossil}
     \end{center}
   \end{figure}
  % \vskip 2em%
 \end{center}
   {\supervisor \\  \cosupervisor \\
   \flushright \year \par} 
+
+\vfill* %space{0cm}
+%\vspace{.5cm}
+\hspace{-3cm}\includegraphics[width=8cm]{images/UFRlogo.jpg}
+
 
 \newpage
 % If you have a photo on the titlepage, you can add a short
