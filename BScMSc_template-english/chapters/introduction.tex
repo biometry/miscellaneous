@@ -7,7 +7,7 @@
 
 Start your introduction here...
 
-Possibly cite some work of others, too \citep{Adiku.ea:1995:USO}. To do so, you have to fill a file (the bibliography, recognisable by the \texttt{.bib} ending) with appropriately formatted references. It would be daft to not use BibDesk or JabRef or other software to manage your references and produce this file for your. Then, you cite the references, and the \textbf{natbib} package allows you flexibility (with/out parentheses, only the year, etc). The actual style of the bibliography in your thesis is determined by the command \texttt{bibliographystyle}, and there are only few defaults. The main differences are between author-year styles (e.g. apalike) and numbered (e.g. ksfh\_nat). Thousands of styles float the internet, recognisable as \texttt{.bst}-files, and typically every journal has a different one, every book series re-invents the styles, and you can spend years optimising what is, essentially, not so super important.
+Possibly cite some work of others, too \citep{Adiku1995}. To do so, you have to fill a file (the bibliography, recognisable by the \texttt{.bib} ending) with appropriately formatted references. It would be daft to not use BibDesk or JabRef or other software to manage your references and produce this file for your. Then, you cite the references, and the \textbf{natbib} package allows you flexibility (with/out parentheses, only the year, etc). The actual style of the bibliography in your thesis is determined by the command \texttt{bibliographystyle}, and there are only few defaults. The main differences are between author-year styles (e.g. apalike) and numbered (e.g. ksfh\_nat). Thousands of styles float the internet, recognisable as \texttt{.bst}-files, and typically every journal has a different one, every book series re-invents the styles, and you can spend years optimising what is, essentially, not so super important.
 
 \begin{boxmd}
 	\textbf{Bibliography settings}\\
@@ -28,11 +28,13 @@ Possibly cite some work of others, too \citep{Adiku.ea:1995:USO}. To do so, you 
 	\end{footnotesize}\\
 	You will note that all capital letters in the title need to be surrounded by braces ``\{\}'' to prevent conversion to lower case. Italics, such as the species name here, need to be explicitly emphasised. Diacritic symbols may require special representation, although not if you have set your input encoding correctly (see preamble of this document).
 	
-	Of course you can use the more flexible Bib\LaTeX instead of \BibTeX, and of course there some small things to know about the entry types in either. But this should get you started with papers. For books, there is \texttt{\makeatletter @\makeatother book} and for chapters there is \texttt{\makeatletter @\makeatother incollection} (do not use \texttt{\makeatletter @\makeatother inbook}, which does not allow you to specify the editors). I try to squeeze everything into these three types of references.
+	Of course you can use the more flexible Bib\LaTeX\/ instead of \BibTeX, and of course there are some small things to know about the entry types in either. But this should get you started with papers. For books, there is \texttt{\makeatletter @\makeatother book} and for chapters there is \texttt{\makeatletter @\makeatother incollection} (do not use \texttt{\makeatletter @\makeatother inbook}, which does not allow you to specify the editors). I try to squeeze everything into these three types of references.
 	
 	Pay attention to correct capitalisation of your references. Typically, and preferably, Book Titles should be in capitals, as should Journal Names, while journal publications should be lower case, as should be the titles of book chapters. Once your \texttt{.bib}-file is set up correctly, this is all taken care of by the bibliography style of your choice.
 	
-	Finally, do \textbf{not} print both DOI and URL in the bibliography, they are typically near-identical. Check the internet for how to suppress URL in this case (although I think the style used here does that automatically, at the expense of also suppressing the DOI).
+	Finally, do \textbf{not} print both DOI and URL in the bibliography, they are typically near-identical. Check the internet for how to suppress URL in this case (I think the style used here does that automatically, at the expense of having the DOI as hypertext).
+	
+	\noindent P.S.: If you are serious about bibliographic details, move from \BibTeX\/ to \sc{Bib}\LaTeX!
 \end{boxmd}
 
 
